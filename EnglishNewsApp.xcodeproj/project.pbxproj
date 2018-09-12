@@ -13,6 +13,9 @@
 		2813A3E32148B39500F191C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2813A3E12148B39500F191C9 /* Main.storyboard */; };
 		2813A3E52148B39B00F191C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2813A3E42148B39B00F191C9 /* Assets.xcassets */; };
 		2813A3E82148B39B00F191C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2813A3E62148B39B00F191C9 /* LaunchScreen.storyboard */; };
+		2813A3F02148B8F800F191C9 /* PagingMenuViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */; };
+		2813A3F22148B90700F191C9 /* PagingMenuViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */; };
+		2813A3F42148B91600F191C9 /* PagingMenuViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		2813A3E42148B39B00F191C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2813A3E72148B39B00F191C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2813A3E92148B39B00F191C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController1.swift; sourceTree = "<group>"; };
+		2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController2.swift; sourceTree = "<group>"; };
+		2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController3.swift; sourceTree = "<group>"; };
 		8AD228D37AA12033B52E3532 /* Pods_EnglishNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F4B8B7F9BD242496F949FE /* Pods-EnglishNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +78,9 @@
 			children = (
 				2813A3DD2148B39500F191C9 /* AppDelegate.swift */,
 				2813A3DF2148B39500F191C9 /* ViewController.swift */,
+				2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */,
+				2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */,
+				2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */,
 				2813A3E12148B39500F191C9 /* Main.storyboard */,
 				2813A3E42148B39B00F191C9 /* Assets.xcassets */,
 				2813A3E62148B39B00F191C9 /* LaunchScreen.storyboard */,
@@ -162,15 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
 			);
@@ -184,15 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-EnglishNewsApp-checkManifestLockResult.txt",
 			);
@@ -208,8 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2813A3F42148B91600F191C9 /* PagingMenuViewController3.swift in Sources */,
 				2813A3E02148B39500F191C9 /* ViewController.swift in Sources */,
 				2813A3DE2148B39500F191C9 /* AppDelegate.swift in Sources */,
+				2813A3F22148B90700F191C9 /* PagingMenuViewController2.swift in Sources */,
+				2813A3F02148B8F800F191C9 /* PagingMenuViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
