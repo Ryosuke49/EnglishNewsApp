@@ -69,19 +69,19 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
     
     fileprivate struct MenuItem1: MenuItemViewCustomizable {
         var displayMode: MenuItemDisplayMode {
-            return .text(title: MenuItemText(text: "赤い画面", color: UIColor.red, selectedColor: UIColor.white))
+            return .text(title: MenuItemText(text: "YahooNews", color: UIColor.white, selectedColor: UIColor.white))
         }
     }
     
     fileprivate struct MenuItem2: MenuItemViewCustomizable {
         var displayMode: MenuItemDisplayMode {
-            return .text(title: MenuItemText(text: "青い画面", color: UIColor.blue, selectedColor: UIColor.white))
+            return .text(title: MenuItemText(text: "News2", color: UIColor.white, selectedColor: UIColor.white))
         }
     }
     
     fileprivate struct MenuItem3: MenuItemViewCustomizable {
         var displayMode: MenuItemDisplayMode {
-            return .text(title: MenuItemText(text: "黄色い画面", color: UIColor.yellow, selectedColor: UIColor.white))
+            return .text(title: MenuItemText(text: "News3", color: UIColor.white, selectedColor: UIColor.white))
         }
 }
 
