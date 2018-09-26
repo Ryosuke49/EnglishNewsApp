@@ -17,13 +17,27 @@
                     <view key="view" contentMode="scaleToFill" id="tXB-XC-l50">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pho-63-miJ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="lpy-C0-wU3" id="X6a-BV-xCb"/>
+                                    <outlet property="delegate" destination="lpy-C0-wU3" id="qeS-gR-Cd7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bxU-jZ-G6T"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Pho-63-miJ" id="XS3-fE-WIT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrw-gM-SHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-709" y="826"/>
+            <point key="canvasLocation" x="-709.60000000000002" y="825.33733133433293"/>
         </scene>
         <!--Paging Menu View Controller2-->
         <scene sceneID="cmJ-lz-e9y">
