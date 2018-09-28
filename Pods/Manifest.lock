@@ -1,16 +1,22 @@
 PODS:
   - PagingMenuController (2.2.0)
+  - TOWebViewController (2.2.8):
+    - TOWebViewController/Core (= 2.2.8)
+  - TOWebViewController/Core (2.2.8)
 
 DEPENDENCIES:
   - PagingMenuController
+  - TOWebViewController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - PagingMenuController
+    - TOWebViewController
 
 SPEC CHECKSUMS:
   PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+  TOWebViewController: 953a24619d32f7aa1d9d4098a74885a9236f7348
 
-PODFILE CHECKSUM: 23386b554c1e04a7cbf220072f76aa1eec2e9c6f
+PODFILE CHECKSUM: 0d75e4bb5d23db846fea7b1d75ebbf9c4bcf5df4
 
 COCOAPODS: 1.5.3

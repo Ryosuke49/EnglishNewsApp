@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // PagingMenuController追加
         let options = PagingMenuOptions()
         let pagingMenuController = PagingMenuController(options: options)
