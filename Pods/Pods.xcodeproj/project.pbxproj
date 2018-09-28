@@ -3,65 +3,144 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD9EF0170B3100CE38BCC9E5E3914F5 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */; };
-		3469B324A269F1DDF0B05B0C4AF6B050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3705C5BCD58EE9DAE259B30F7156794E /* Pods-EnglishNewsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA054B0565F8E72ACBC91C9C4B40689 /* Pods-EnglishNewsApp-dummy.m */; };
-		518748743C33156CB7DCBC7BDBF23455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		54B91E3575DA56BC50C8C832BF5A1D26 /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9422296BBF5114136DFD35798E3011 /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5785E43C0FB43B8FC8B7C06A9FAD0750 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */; };
-		6FB58E1C73BB07D2E3BE8CA9D7176352 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */; };
-		793B2BC8D01F5B84189785684FFF4FD1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */; };
-		7EA95C997D1CEAFEFCE0EA0FDD104DAE /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */; };
-		98E5DBE9D4293328DFE8D0938D7F1417 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */; };
-		A452A0192947C6F3914569E18132257A /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */; };
-		AAB740CD3333F2B548CAB644FF48AC4A /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62466A40C84BFEAB17549A27930BE14F /* PagingMenuController-dummy.m */; };
-		BC317B20BF81C814DCDA5B7B0609710D /* Pods-EnglishNewsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3C3DB0A1DAAC37E605DE4EB0DE46C1 /* Pods-EnglishNewsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFEEF0929C205F5027964A7B78D43373 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */; };
+		06E40AAEF3D209295F848EFB3CB9C9AE /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 241D55A20D605527D4B52440CA5455B2 /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		06E5EA87E9A5CA2AC312BBAF74891ABE /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5018EBC27D79E3C993C324F78A7B4655 /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD9EF0170B3100CE38BCC9E5E3914F5 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F3355E7E4D1953137896234B285A3 /* MenuItemViewCustomizable.swift */; };
+		137FAE672AFF766B7A75425A8D596B05 /* Pods-EnglishNewsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3C3DB0A1DAAC37E605DE4EB0DE46C1 /* Pods-EnglishNewsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E8C6773E94ED8DE892BB48989330EE /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 19924E2307B8B734EFCB5B8B4718FBB9 /* de.lproj */; };
+		191F752AFAC69BFFDF9347FFC0DEC680 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 70571BAA901E3BB9D1371AA9126D525E /* it.lproj */; };
+		1A29975460F8ECD0485FF7DA95769758 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3283FBA53A4CB3268613A207DF79EF /* CoreGraphics.framework */; };
+		25C39F695F82AA74A19ABBED892D7669 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ECA470CFA711CB01037270906661A8CD /* es.lproj */; };
+		2A7DA20F39100E223A8E6409A917117F /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120495893EBDEF9C94D134735AA0EED7 /* TOWebViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A9E20D23A9EA5FD8AABDCED72561CF7 /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 794445F5FBEBB4A3B6A205A508FE070D /* TOActivityChrome.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A3AED0B02DF4041A6780169597B177E /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E990D6C93F0A61AA88A9CB0DE3137 /* UIImage+TOWebViewControllerIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3C15AD18C71BF50DD047D9826820C9EC /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6243046F77F9ACC59EBB32E23FE7294F /* ko.lproj */; };
+		4164BB03D648B4053CF10A680BD68CBC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF35D3E58A7DB2E4AEE747C629DEFD98 /* QuartzCore.framework */; };
+		4255E83C54E66BB952C427AC5A618A14 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 78DF680046D7735254B33FA1F3D39AF6 /* ru.lproj */; };
+		466C7F07FCAC8EFE2D31836F379B13B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FC2FD8C7A4E1183F234A0D2F30D46 /* Foundation.framework */; };
+		4B71FF25C613B1B692726308C465E68E /* TOWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 155E992E4AFAC6B7A6F50A5EB449A169 /* TOWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518748743C33156CB7DCBC7BDBF23455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FC2FD8C7A4E1183F234A0D2F30D46 /* Foundation.framework */; };
+		51C8B4FE3DE06CE9D76C3F090088E0B4 /* TOActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B201775C56095D60FF8B166F912F27 /* TOActivitySafari.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526640E22821CFC316226D07FB6A587F /* Pods-EnglishNewsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA054B0565F8E72ACBC91C9C4B40689 /* Pods-EnglishNewsApp-dummy.m */; };
+		54B91E3575DA56BC50C8C832BF5A1D26 /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8BE30B1BAEC64ACA565900D1D080A /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5785E43C0FB43B8FC8B7C06A9FAD0750 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D25E16045787C85F859ADB41DBC719 /* MenuItemView.swift */; };
+		57908074B4CBAF3BC9B9C77DA894B4BB /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1BDE1ED1CA1DB88ED3AEAEA654A4E8A5 /* fr.lproj */; };
+		6168B803D3C8AD35E2A60D5C15E4923A /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C68C1F2440E283829DB651BA9BFB10 /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0C2852B46559B5882EF59D9F82BCCB /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E34E1E9DE75695AE3FF21C32D3FD4DC4 /* en.lproj */; };
+		6FB58E1C73BB07D2E3BE8CA9D7176352 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F480FF0669E9A1BBB801C22A003837 /* PagingMenuControllerCustomizable.swift */; };
+		7636E53826E0DB302DFDA8861921734B /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 105D7CD07783D0BCE7114D834C94714A /* zh-Hant.lproj */; };
+		793B2BC8D01F5B84189785684FFF4FD1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F740C53A608B3589E54DBA0D87CCD /* MenuView.swift */; };
+		7EA95C997D1CEAFEFCE0EA0FDD104DAE /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997080CBE8624B21856CAB0A5D8CDBCF /* Pagable.swift */; };
+		8E91F1F9AAE981A7C3AAE0207FBC52F3 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2F947D68C29CF5AB89D25FA20CAABF42 /* zh-Hans.lproj */; };
+		91DEAB1701CB8E8D1BCB39F1D8F073F5 /* TOWebViewControllerLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D70E8B515B97C2C5610521858E9B9 /* TOWebViewControllerLocalizable.bundle */; };
+		955A4249DB2FB804F1C6A33F42A0596F /* UIImage+TOWebViewControllerIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CE2397D432D510D6FA18A527A79968 /* UIImage+TOWebViewControllerIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E5DBE9D4293328DFE8D0938D7F1417 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F3E778032987780640A0BA974F044 /* MenuViewCustomizable.swift */; };
+		A452A0192947C6F3914569E18132257A /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322397006A845436F0E562552204D82 /* PagingViewController.swift */; };
+		AAB740CD3333F2B548CAB644FF48AC4A /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B6D197C51D63E43D8CD55C1530C97 /* PagingMenuController-dummy.m */; };
+		AF8E9AD2881F3DC1961E771AB872297C /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E73C3EF6EA980A6BBA8499B43CF675 /* TOActivitySafari.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B56E61A0F2FC50492533C9FC4B21FF1A /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C9C0EFA6AC67831A4202D0E802A21DE1 /* pl.lproj */; };
+		B7B0EF0B4CC26CF2A076AC0A6049A8E2 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CE8C4037BB282DCD4CAE6BF31C25530C /* ja.lproj */; };
+		BFEEF0929C205F5027964A7B78D43373 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B6DE013F5C74D58365406CE9FE94D /* PagingMenuController.swift */; };
+		DE54541634695BDEF872F13454805E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FC2FD8C7A4E1183F234A0D2F30D46 /* Foundation.framework */; };
+		E44C7DC5374DC1FA76E19C15FF92E24C /* TOWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8CCEF76F55D3B5A878F0A308C2D452 /* TOWebViewController-dummy.m */; };
+		E63826D733D7DCDCF212FA01637225FC /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719668D5CEF992AF89129FA6916B14FE /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC5CBCD327626FC5552A86F40DF036A6 /* uk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7B488E0FE7CD4B7418EF2EF97E80579D /* uk.lproj */; };
+		FC3A463A1E2AA680608A4E615E435896 /* TOActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = 20ED171A31B392AA1C559B6CC89C8A61 /* TOActivityChrome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDA3ECBA640FB6E6028F5C6ACE5F570 /* TOWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1423975D8C9064969DFC9E642CCA3A1E /* TOWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B751AF93CA1E8A4CD28A39E865F8A5E /* PBXContainerItemProxy */ = {
+		08FD43E73FD6AD0FFD9BE3EF8F4322EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 42106CCFA99C0492F96B0D5A226E0D60;
 			remoteInfo = PagingMenuController;
 		};
+		5C9980F7317DDC072710AB460EBEE5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D9B7F49773B5EF97377407C4F9FED4;
+			remoteInfo = TOWebViewController;
+		};
+		92743AB2A2F4AB26CF378984F42CB593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BA386FE3DE1D6C5642DCC7B04E7258;
+			remoteInfo = "TOWebViewController-TOWebViewControllerLocalizable";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C4B9082BF56B71F8BD4A46FEB534CCB /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingMenuController.framework; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F480FF0669E9A1BBB801C22A003837 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		0EFA8C05168066B6E21DCCCB13FE3AAF /* TOWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOWebViewController.xcconfig; sourceTree = "<group>"; };
+		105D7CD07783D0BCE7114D834C94714A /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "TOWebViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
+		120495893EBDEF9C94D134735AA0EED7 /* TOWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOWebViewController.m; path = TOWebViewController/TOWebViewController.m; sourceTree = "<group>"; };
+		138FC2FD8C7A4E1183F234A0D2F30D46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1423975D8C9064969DFC9E642CCA3A1E /* TOWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOWebViewController-umbrella.h"; sourceTree = "<group>"; };
 		14EAF93943DAF38F70480048B8EF7844 /* Pods-EnglishNewsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnglishNewsApp.modulemap"; sourceTree = "<group>"; };
+		155E992E4AFAC6B7A6F50A5EB449A169 /* TOWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOWebViewController.h; path = TOWebViewController/TOWebViewController.h; sourceTree = "<group>"; };
+		17CE2397D432D510D6FA18A527A79968 /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TOWebViewControllerIcons.h"; path = "TOWebViewController/UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		19924E2307B8B734EFCB5B8B4718FBB9 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = TOWebViewController/de.lproj; sourceTree = "<group>"; };
+		1BDE1ED1CA1DB88ED3AEAEA654A4E8A5 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = TOWebViewController/fr.lproj; sourceTree = "<group>"; };
+		1C26FF964822227E120F418AD601E584 /* Pods_EnglishNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ED171A31B392AA1C559B6CC89C8A61 /* TOActivityChrome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityChrome.h; path = TOWebViewController/TOActivityChrome.h; sourceTree = "<group>"; };
 		224402A471DEFD060A8F4D1E37DFDEA6 /* Pods-EnglishNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		241D55A20D605527D4B52440CA5455B2 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		2515CF12C5F935EB44C599E1959E98A6 /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
 		2E3C3DB0A1DAAC37E605DE4EB0DE46C1 /* Pods-EnglishNewsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnglishNewsApp-umbrella.h"; sourceTree = "<group>"; };
-		346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
-		41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
-		435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
+		2F947D68C29CF5AB89D25FA20CAABF42 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "TOWebViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		360F3355E7E4D1953137896234B285A3 /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		5018EBC27D79E3C993C324F78A7B4655 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
 		509E7B262B573683C2B98368B49C55C1 /* Pods-EnglishNewsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnglishNewsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		62466A40C84BFEAB17549A27930BE14F /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
-		72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
-		8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
-		908C4D1AE76C96895C329F5FBC4E46D1 /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
+		5322397006A845436F0E562552204D82 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		5F3F740C53A608B3589E54DBA0D87CCD /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
+		6243046F77F9ACC59EBB32E23FE7294F /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = TOWebViewController/ko.lproj; sourceTree = "<group>"; };
+		65D25E16045787C85F859ADB41DBC719 /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		66B201775C56095D60FF8B166F912F27 /* TOActivitySafari.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivitySafari.h; path = TOWebViewController/TOActivitySafari.h; sourceTree = "<group>"; };
+		6EA830811A4C807B33C268FA801C334B /* TOWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		70571BAA901E3BB9D1371AA9126D525E /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = TOWebViewController/it.lproj; sourceTree = "<group>"; };
+		719668D5CEF992AF89129FA6916B14FE /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		78DF680046D7735254B33FA1F3D39AF6 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = TOWebViewController/ru.lproj; sourceTree = "<group>"; };
+		794445F5FBEBB4A3B6A205A508FE070D /* TOActivityChrome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityChrome.m; path = TOWebViewController/TOActivityChrome.m; sourceTree = "<group>"; };
+		7B488E0FE7CD4B7418EF2EF97E80579D /* uk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = uk.lproj; path = TOWebViewController/uk.lproj; sourceTree = "<group>"; };
 		908FB40E85FE7214472C97A531441E47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948F3E778032987780640A0BA974F044 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		997080CBE8624B21856CAB0A5D8CDBCF /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
+		9A9D70E8B515B97C2C5610521858E9B9 /* TOWebViewControllerLocalizable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOWebViewControllerLocalizable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0E990D6C93F0A61AA88A9CB0DE3137 /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TOWebViewControllerIcons.m"; path = "TOWebViewController/UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		9C8B6D197C51D63E43D8CD55C1530C97 /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
+		9EB8DDBB2268D6E464B681F7FAD64216 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24CC0F201479794F032D8215092161E /* Pods-EnglishNewsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishNewsApp-frameworks.sh"; sourceTree = "<group>"; };
-		A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		A82C756ABFECAA0361E5D0F43A4F4CEE /* TOWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D8BE30B1BAEC64ACA565900D1D080A /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
 		ACA054B0565F8E72ACBC91C9C4B40689 /* Pods-EnglishNewsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnglishNewsApp-dummy.m"; sourceTree = "<group>"; };
+		B0F7AA298081D85725C9DCDFAFF2AD67 /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
+		B3E73C3EF6EA980A6BBA8499B43CF675 /* TOActivitySafari.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivitySafari.m; path = TOWebViewController/TOActivitySafari.m; sourceTree = "<group>"; };
 		B4211400520A6FF53A41123760556F1B /* Pods-EnglishNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnglishNewsApp.release.xcconfig"; sourceTree = "<group>"; };
-		C04C51423703393C2B9B59EDEC93180E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C45E29644E4182C878119D6B921311F7 /* Pods_EnglishNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnglishNewsApp.framework; path = "Pods-EnglishNewsApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4510CBEF88D879F7E902FCBD6D7CF0 /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
-		CB9CCBE7EEC236F2A4520EF16FD26093 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
-		D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
-		DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		BA5164EF15712FA6E5BAD0D4539AA618 /* TOWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TOWebViewController.modulemap; sourceTree = "<group>"; };
+		BF3283FBA53A4CB3268613A207DF79EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C7C68C1F2440E283829DB651BA9BFB10 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = TOWebViewController/NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
+		C9C0EFA6AC67831A4202D0E802A21DE1 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = TOWebViewController/pl.lproj; sourceTree = "<group>"; };
+		CE8C4037BB282DCD4CAE6BF31C25530C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = TOWebViewController/ja.lproj; sourceTree = "<group>"; };
+		CEAA53EAF3F3421258F9CC7DB02B34C1 /* ResourceBundle-TOWebViewControllerLocalizable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOWebViewControllerLocalizable-Info.plist"; sourceTree = "<group>"; };
+		DF8CCEF76F55D3B5A878F0A308C2D452 /* TOWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOWebViewController-dummy.m"; sourceTree = "<group>"; };
+		E0236A51A2BE3665D557F9EA80ED5E1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32B6DE013F5C74D58365406CE9FE94D /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
+		E34E1E9DE75695AE3FF21C32D3FD4DC4 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TOWebViewController/en.lproj; sourceTree = "<group>"; };
 		E460E2923D8E45766BC411327132A1F5 /* Pods-EnglishNewsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnglishNewsApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA6A73B162BC9B1C2543D3006CCACA09 /* Pods-EnglishNewsApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnglishNewsApp-resources.sh"; sourceTree = "<group>"; };
-		EE9422296BBF5114136DFD35798E3011 /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
+		ECA470CFA711CB01037270906661A8CD /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TOWebViewController/es.lproj; sourceTree = "<group>"; };
+		EF35D3E58A7DB2E4AEE747C629DEFD98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F370538565CDB36DCB28E3707872C5E1 /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7FC2A2D1A1F874C7D127E0C1592446 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +152,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CC7F5C9E38A6294391531518EB1C395 /* Frameworks */ = {
+		2C5A09C6C2D4DC96AE3EF0461A432810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3469B324A269F1DDF0B05B0C4AF6B050 /* Foundation.framework in Frameworks */,
+				DE54541634695BDEF872F13454805E13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A85E36A466803A76F8A06BF7ABD53F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A29975460F8ECD0485FF7DA95769758 /* CoreGraphics.framework in Frameworks */,
+				466C7F07FCAC8EFE2D31836F379B13B6 /* Foundation.framework in Frameworks */,
+				4164BB03D648B4053CF10A680BD68CBC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB25BC88FB9A973CA27334A369DC43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,79 +188,136 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2D5CCE4394C517DAE9408AB949CDB785 /* Products */ = {
+		1131F76F0C530C37049FAD46837A4FC8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C4B9082BF56B71F8BD4A46FEB534CCB /* PagingMenuController.framework */,
-				C45E29644E4182C878119D6B921311F7 /* Pods_EnglishNewsApp.framework */,
+				E0236A51A2BE3665D557F9EA80ED5E1D /* Info.plist */,
+				CEAA53EAF3F3421258F9CC7DB02B34C1 /* ResourceBundle-TOWebViewControllerLocalizable-Info.plist */,
+				BA5164EF15712FA6E5BAD0D4539AA618 /* TOWebViewController.modulemap */,
+				0EFA8C05168066B6E21DCCCB13FE3AAF /* TOWebViewController.xcconfig */,
+				DF8CCEF76F55D3B5A878F0A308C2D452 /* TOWebViewController-dummy.m */,
+				6EA830811A4C807B33C268FA801C334B /* TOWebViewController-prefix.pch */,
+				1423975D8C9064969DFC9E642CCA3A1E /* TOWebViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOWebViewController";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD92CD7E99B357F5177CA66425200790 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F88C43822ACC622DC4BDF08FA19A7F4 /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				65D25E16045787C85F859ADB41DBC719 /* MenuItemView.swift */,
+				360F3355E7E4D1953137896234B285A3 /* MenuItemViewCustomizable.swift */,
+				5F3F740C53A608B3589E54DBA0D87CCD /* MenuView.swift */,
+				948F3E778032987780640A0BA974F044 /* MenuViewCustomizable.swift */,
+				997080CBE8624B21856CAB0A5D8CDBCF /* Pagable.swift */,
+				E32B6DE013F5C74D58365406CE9FE94D /* PagingMenuController.swift */,
+				03F480FF0669E9A1BBB801C22A003837 /* PagingMenuControllerCustomizable.swift */,
+				5322397006A845436F0E562552204D82 /* PagingViewController.swift */,
+				6A0C8BCD5199715D813E193BAEA03070 /* Support Files */,
+			);
+			path = PagingMenuController;
+			sourceTree = "<group>";
+		};
+		5657301D09E100518C58B47534D6D3B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19924E2307B8B734EFCB5B8B4718FBB9 /* de.lproj */,
+				E34E1E9DE75695AE3FF21C32D3FD4DC4 /* en.lproj */,
+				ECA470CFA711CB01037270906661A8CD /* es.lproj */,
+				1BDE1ED1CA1DB88ED3AEAEA654A4E8A5 /* fr.lproj */,
+				70571BAA901E3BB9D1371AA9126D525E /* it.lproj */,
+				CE8C4037BB282DCD4CAE6BF31C25530C /* ja.lproj */,
+				6243046F77F9ACC59EBB32E23FE7294F /* ko.lproj */,
+				C9C0EFA6AC67831A4202D0E802A21DE1 /* pl.lproj */,
+				78DF680046D7735254B33FA1F3D39AF6 /* ru.lproj */,
+				7B488E0FE7CD4B7418EF2EF97E80579D /* uk.lproj */,
+				2F947D68C29CF5AB89D25FA20CAABF42 /* zh-Hans.lproj */,
+				105D7CD07783D0BCE7114D834C94714A /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		696C55A81B1D22D3C5BD6E0A6F833222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F370538565CDB36DCB28E3707872C5E1 /* PagingMenuController.framework */,
+				1C26FF964822227E120F418AD601E584 /* Pods_EnglishNewsApp.framework */,
+				A82C756ABFECAA0361E5D0F43A4F4CEE /* TOWebViewController.framework */,
+				9A9D70E8B515B97C2C5610521858E9B9 /* TOWebViewControllerLocalizable.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		6A0C8BCD5199715D813E193BAEA03070 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				9EB8DDBB2268D6E464B681F7FAD64216 /* Info.plist */,
+				FD7FC2A2D1A1F874C7D127E0C1592446 /* PagingMenuController.modulemap */,
+				2515CF12C5F935EB44C599E1959E98A6 /* PagingMenuController.xcconfig */,
+				9C8B6D197C51D63E43D8CD55C1530C97 /* PagingMenuController-dummy.m */,
+				B0F7AA298081D85725C9DCDFAFF2AD67 /* PagingMenuController-prefix.pch */,
+				A9D8BE30B1BAEC64ACA565900D1D080A /* PagingMenuController-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/PagingMenuController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AF0D07A1A79D0B6C60392DDB1D3D7146 /* Pods */,
-				2D5CCE4394C517DAE9408AB949CDB785 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				C0ABC95B51BAB0B2F3A17D5AE539AFBB /* Pods */,
+				696C55A81B1D22D3C5BD6E0A6F833222 /* Products */,
 				06CC1692263D623908E48E789B7499C9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A3B3FE888C7856F03B4A02AADB61CFA8 /* PagingMenuController */ = {
+		8F7A161524BDCDD89AB4E11DEFB93160 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */,
-				41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */,
-				435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */,
-				346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */,
-				8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */,
-				72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */,
-				DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */,
-				D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */,
-				CB7707BB3C6A393DD74815DE56E34409 /* Support Files */,
+				C7C68C1F2440E283829DB651BA9BFB10 /* NJKWebViewProgress.h */,
+				241D55A20D605527D4B52440CA5455B2 /* NJKWebViewProgress.m */,
+				5018EBC27D79E3C993C324F78A7B4655 /* NJKWebViewProgressView.h */,
+				719668D5CEF992AF89129FA6916B14FE /* NJKWebViewProgressView.m */,
+				20ED171A31B392AA1C559B6CC89C8A61 /* TOActivityChrome.h */,
+				794445F5FBEBB4A3B6A205A508FE070D /* TOActivityChrome.m */,
+				66B201775C56095D60FF8B166F912F27 /* TOActivitySafari.h */,
+				B3E73C3EF6EA980A6BBA8499B43CF675 /* TOActivitySafari.m */,
+				155E992E4AFAC6B7A6F50A5EB449A169 /* TOWebViewController.h */,
+				120495893EBDEF9C94D134735AA0EED7 /* TOWebViewController.m */,
+				17CE2397D432D510D6FA18A527A79968 /* UIImage+TOWebViewControllerIcons.h */,
+				9C0E990D6C93F0A61AA88A9CB0DE3137 /* UIImage+TOWebViewControllerIcons.m */,
+				5657301D09E100518C58B47534D6D3B1 /* Resources */,
 			);
-			name = PagingMenuController;
-			path = PagingMenuController;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		AF0D07A1A79D0B6C60392DDB1D3D7146 /* Pods */ = {
+		9D41EAF9765CF60A9F2990E10FF0CF71 /* TOWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A3B3FE888C7856F03B4A02AADB61CFA8 /* PagingMenuController */,
+				8F7A161524BDCDD89AB4E11DEFB93160 /* Core */,
+				1131F76F0C530C37049FAD46837A4FC8 /* Support Files */,
+			);
+			path = TOWebViewController;
+			sourceTree = "<group>";
+		};
+		C0ABC95B51BAB0B2F3A17D5AE539AFBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F88C43822ACC622DC4BDF08FA19A7F4 /* PagingMenuController */,
+				9D41EAF9765CF60A9F2990E10FF0CF71 /* TOWebViewController */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB7707BB3C6A393DD74815DE56E34409 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C04C51423703393C2B9B59EDEC93180E /* Info.plist */,
-				CB9CCBE7EEC236F2A4520EF16FD26093 /* PagingMenuController.modulemap */,
-				908C4D1AE76C96895C329F5FBC4E46D1 /* PagingMenuController.xcconfig */,
-				62466A40C84BFEAB17549A27930BE14F /* PagingMenuController-dummy.m */,
-				CB4510CBEF88D879F7E902FCBD6D7CF0 /* PagingMenuController-prefix.pch */,
-				EE9422296BBF5114136DFD35798E3011 /* PagingMenuController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PagingMenuController";
 			sourceTree = "<group>";
 		};
 		EE4965F42BAE1671D012D1EF37261908 /* Pods-EnglishNewsApp */ = {
@@ -185,14 +338,38 @@
 			path = "Target Support Files/Pods-EnglishNewsApp";
 			sourceTree = "<group>";
 		};
+		FD92CD7E99B357F5177CA66425200790 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BF3283FBA53A4CB3268613A207DF79EF /* CoreGraphics.framework */,
+				138FC2FD8C7A4E1183F234A0D2F30D46 /* Foundation.framework */,
+				EF35D3E58A7DB2E4AEE747C629DEFD98 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		743CE5E9591C1B38A9062B5EF1C34084 /* Headers */ = {
+		00042BD47747F0C6481DDA18BF9BC31D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC317B20BF81C814DCDA5B7B0609710D /* Pods-EnglishNewsApp-umbrella.h in Headers */,
+				137FAE672AFF766B7A75425A8D596B05 /* Pods-EnglishNewsApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B298E6EC80A973AF2428A4A2D7C12A34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6168B803D3C8AD35E2A60D5C15E4923A /* NJKWebViewProgress.h in Headers */,
+				06E5EA87E9A5CA2AC312BBAF74891ABE /* NJKWebViewProgressView.h in Headers */,
+				FC3A463A1E2AA680608A4E615E435896 /* TOActivityChrome.h in Headers */,
+				51C8B4FE3DE06CE9D76C3F090088E0B4 /* TOActivitySafari.h in Headers */,
+				FFDA3ECBA640FB6E6028F5C6ACE5F570 /* TOWebViewController-umbrella.h in Headers */,
+				4B71FF25C613B1B692726308C465E68E /* TOWebViewController.h in Headers */,
+				955A4249DB2FB804F1C6A33F42A0596F /* UIImage+TOWebViewControllerIcons.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +384,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		20CDF99FBA609D6ECA59E0ED05900CBE /* Pods-EnglishNewsApp */ = {
+		33C49BE27103C22EED373B53353A03B2 /* Pods-EnglishNewsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13CC3926930C275EEE688A162324E572 /* Build configuration list for PBXNativeTarget "Pods-EnglishNewsApp" */;
+			buildConfigurationList = 3CECD4A8B937EA6F937E633936BBB45C /* Build configuration list for PBXNativeTarget "Pods-EnglishNewsApp" */;
 			buildPhases = (
-				743CE5E9591C1B38A9062B5EF1C34084 /* Headers */,
-				5D4CEFE3A0BAF2343FA869385F46ADAB /* Sources */,
-				9CC7F5C9E38A6294391531518EB1C395 /* Frameworks */,
-				B80E7270317D9B7F2112A30E79C1367A /* Resources */,
+				00042BD47747F0C6481DDA18BF9BC31D /* Headers */,
+				B437DD68B93D9B7C77B282A9033F9877 /* Sources */,
+				2C5A09C6C2D4DC96AE3EF0461A432810 /* Frameworks */,
+				4B0F38F52FE1DE48451F4F5EC526DAC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8D2857BB50763D478FC0A4A85EDE2FD /* PBXTargetDependency */,
+				AB7C658A4AAA52BBB91C6B8050EA89FF /* PBXTargetDependency */,
+				D95106FB4CC4F54D34EE30D95CA8672B /* PBXTargetDependency */,
 			);
 			name = "Pods-EnglishNewsApp";
 			productName = "Pods-EnglishNewsApp";
-			productReference = C45E29644E4182C878119D6B921311F7 /* Pods_EnglishNewsApp.framework */;
+			productReference = 1C26FF964822227E120F418AD601E584 /* Pods_EnglishNewsApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		42106CCFA99C0492F96B0D5A226E0D60 /* PagingMenuController */ = {
@@ -241,8 +419,44 @@
 			);
 			name = PagingMenuController;
 			productName = PagingMenuController;
-			productReference = 0C4B9082BF56B71F8BD4A46FEB534CCB /* PagingMenuController.framework */;
+			productReference = F370538565CDB36DCB28E3707872C5E1 /* PagingMenuController.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		F3D9B7F49773B5EF97377407C4F9FED4 /* TOWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43392825648D0A1EE41C18EFB7EAB10D /* Build configuration list for PBXNativeTarget "TOWebViewController" */;
+			buildPhases = (
+				B298E6EC80A973AF2428A4A2D7C12A34 /* Headers */,
+				F43CF88DA28B102FE5CB4D5E4346942D /* Sources */,
+				9A85E36A466803A76F8A06BF7ABD53F1 /* Frameworks */,
+				2C97665C5007F7E93862B9C04DADD5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB177552BC6ADDE00368CEE855475E25 /* PBXTargetDependency */,
+			);
+			name = TOWebViewController;
+			productName = TOWebViewController;
+			productReference = A82C756ABFECAA0361E5D0F43A4F4CEE /* TOWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6BA386FE3DE1D6C5642DCC7B04E7258 /* TOWebViewController-TOWebViewControllerLocalizable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F5D2734452795E4AF864FAF48834BD /* Build configuration list for PBXNativeTarget "TOWebViewController-TOWebViewControllerLocalizable" */;
+			buildPhases = (
+				FE8AE81152B04F0DA2D45E890CAB46EA /* Sources */,
+				BFB25BC88FB9A973CA27334A369DC43A /* Frameworks */,
+				5E8AC26D45E7FA19FC5A1681E8E8D08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOWebViewController-TOWebViewControllerLocalizable";
+			productName = "TOWebViewController-TOWebViewControllerLocalizable";
+			productReference = 9A9D70E8B515B97C2C5610521858E9B9 /* TOWebViewControllerLocalizable.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -261,12 +475,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2D5CCE4394C517DAE9408AB949CDB785 /* Products */;
+			productRefGroup = 696C55A81B1D22D3C5BD6E0A6F833222 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				42106CCFA99C0492F96B0D5A226E0D60 /* PagingMenuController */,
-				20CDF99FBA609D6ECA59E0ED05900CBE /* Pods-EnglishNewsApp */,
+				33C49BE27103C22EED373B53353A03B2 /* Pods-EnglishNewsApp */,
+				F3D9B7F49773B5EF97377407C4F9FED4 /* TOWebViewController */,
+				F6BA386FE3DE1D6C5642DCC7B04E7258 /* TOWebViewController-TOWebViewControllerLocalizable */,
 			);
 		};
 /* End PBXProject section */
@@ -279,21 +495,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80E7270317D9B7F2112A30E79C1367A /* Resources */ = {
+		2C97665C5007F7E93862B9C04DADD5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DEAB1701CB8E8D1BCB39F1D8F073F5 /* TOWebViewControllerLocalizable.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0F38F52FE1DE48451F4F5EC526DAC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E8AC26D45E7FA19FC5A1681E8E8D08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8C6773E94ED8DE892BB48989330EE /* de.lproj in Resources */,
+				6F0C2852B46559B5882EF59D9F82BCCB /* en.lproj in Resources */,
+				25C39F695F82AA74A19ABBED892D7669 /* es.lproj in Resources */,
+				57908074B4CBAF3BC9B9C77DA894B4BB /* fr.lproj in Resources */,
+				191F752AFAC69BFFDF9347FFC0DEC680 /* it.lproj in Resources */,
+				B7B0EF0B4CC26CF2A076AC0A6049A8E2 /* ja.lproj in Resources */,
+				3C15AD18C71BF50DD047D9826820C9EC /* ko.lproj in Resources */,
+				B56E61A0F2FC50492533C9FC4B21FF1A /* pl.lproj in Resources */,
+				4255E83C54E66BB952C427AC5A618A14 /* ru.lproj in Resources */,
+				EC5CBCD327626FC5552A86F40DF036A6 /* uk.lproj in Resources */,
+				8E91F1F9AAE981A7C3AAE0207FBC52F3 /* zh-Hans.lproj in Resources */,
+				7636E53826E0DB302DFDA8861921734B /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D4CEFE3A0BAF2343FA869385F46ADAB /* Sources */ = {
+		B437DD68B93D9B7C77B282A9033F9877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3705C5BCD58EE9DAE259B30F7156794E /* Pods-EnglishNewsApp-dummy.m in Sources */,
+				526640E22821CFC316226D07FB6A587F /* Pods-EnglishNewsApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,21 +556,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F43CF88DA28B102FE5CB4D5E4346942D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E40AAEF3D209295F848EFB3CB9C9AE /* NJKWebViewProgress.m in Sources */,
+				E63826D733D7DCDCF212FA01637225FC /* NJKWebViewProgressView.m in Sources */,
+				2A9E20D23A9EA5FD8AABDCED72561CF7 /* TOActivityChrome.m in Sources */,
+				AF8E9AD2881F3DC1961E771AB872297C /* TOActivitySafari.m in Sources */,
+				E44C7DC5374DC1FA76E19C15FF92E24C /* TOWebViewController-dummy.m in Sources */,
+				2A7DA20F39100E223A8E6409A917117F /* TOWebViewController.m in Sources */,
+				3A3AED0B02DF4041A6780169597B177E /* UIImage+TOWebViewControllerIcons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8AE81152B04F0DA2D45E890CAB46EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C8D2857BB50763D478FC0A4A85EDE2FD /* PBXTargetDependency */ = {
+		AB7C658A4AAA52BBB91C6B8050EA89FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PagingMenuController;
 			target = 42106CCFA99C0492F96B0D5A226E0D60 /* PagingMenuController */;
-			targetProxy = 8B751AF93CA1E8A4CD28A39E865F8A5E /* PBXContainerItemProxy */;
+			targetProxy = 08FD43E73FD6AD0FFD9BE3EF8F4322EC /* PBXContainerItemProxy */;
+		};
+		CB177552BC6ADDE00368CEE855475E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOWebViewController-TOWebViewControllerLocalizable";
+			target = F6BA386FE3DE1D6C5642DCC7B04E7258 /* TOWebViewController-TOWebViewControllerLocalizable */;
+			targetProxy = 92743AB2A2F4AB26CF378984F42CB593 /* PBXContainerItemProxy */;
+		};
+		D95106FB4CC4F54D34EE30D95CA8672B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOWebViewController;
+			target = F3D9B7F49773B5EF97377407C4F9FED4 /* TOWebViewController */;
+			targetProxy = 5C9980F7317DDC072710AB460EBEE5CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0F988FEDBD6E7F1234FA6E3B25060D78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 908C4D1AE76C96895C329F5FBC4E46D1 /* PagingMenuController.xcconfig */;
+			baseConfigurationReference = 2515CF12C5F935EB44C599E1959E98A6 /* PagingMenuController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -342,19 +618,14 @@
 				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
 				PRODUCT_MODULE_NAME = PagingMenuController;
 				PRODUCT_NAME = PagingMenuController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -362,6 +633,101 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		21C5413DAA06B7B8B91CB7D95F4D1167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFA8C05168066B6E21DCCCB13FE3AAF /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOWebViewController/TOWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOWebViewController/TOWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOWebViewController;
+				PRODUCT_NAME = TOWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DD78BCC265F5C6AFC38E6DE712A6BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFA8C05168066B6E21DCCCB13FE3AAF /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOWebViewController/TOWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOWebViewController/TOWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOWebViewController;
+				PRODUCT_NAME = TOWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EFCF7242AFC905DF2FC5C915A3C83B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFA8C05168066B6E21DCCCB13FE3AAF /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOWebViewController";
+				INFOPLIST_FILE = "Target Support Files/TOWebViewController/ResourceBundle-TOWebViewControllerLocalizable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOWebViewControllerLocalizable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5CC983B10254095FE5C184560EC0E1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFA8C05168066B6E21DCCCB13FE3AAF /* TOWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOWebViewController";
+				INFOPLIST_FILE = "Target Support Files/TOWebViewController/ResourceBundle-TOWebViewControllerLocalizable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOWebViewControllerLocalizable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -427,49 +793,9 @@
 			};
 			name = Debug;
 		};
-		85009E639C049589B4C098EEED2C6D5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4211400520A6FF53A41123760556F1B /* Pods-EnglishNewsApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EnglishNewsApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B1BFDAB1547736CB11D6E971363A9E30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 908C4D1AE76C96895C329F5FBC4E46D1 /* PagingMenuController.xcconfig */;
+			baseConfigurationReference = 2515CF12C5F935EB44C599E1959E98A6 /* PagingMenuController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -484,11 +810,7 @@
 				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
 				PRODUCT_MODULE_NAME = PagingMenuController;
 				PRODUCT_NAME = PagingMenuController;
@@ -503,7 +825,7 @@
 			};
 			name = Debug;
 		};
-		B32D575F7B69A04FD9623E5D511843DA /* Debug */ = {
+		BE8E6F18F51DF1331BB25C7B90381E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 224402A471DEFD060A8F4D1E37DFDEA6 /* Pods-EnglishNewsApp.debug.xcconfig */;
 			buildSettings = {
@@ -520,11 +842,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-EnglishNewsApp/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp.modulemap";
 				OTHER_LDFLAGS = "";
@@ -601,23 +919,76 @@
 			};
 			name = Release;
 		};
+		E1C1EAD316FF4BC3653D3AF8629EE381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4211400520A6FF53A41123760556F1B /* Pods-EnglishNewsApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnglishNewsApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13CC3926930C275EEE688A162324E572 /* Build configuration list for PBXNativeTarget "Pods-EnglishNewsApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B32D575F7B69A04FD9623E5D511843DA /* Debug */,
-				85009E639C049589B4C098EEED2C6D5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
 				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CECD4A8B937EA6F937E633936BBB45C /* Build configuration list for PBXNativeTarget "Pods-EnglishNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8E6F18F51DF1331BB25C7B90381E64 /* Debug */,
+				E1C1EAD316FF4BC3653D3AF8629EE381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43392825648D0A1EE41C18EFB7EAB10D /* Build configuration list for PBXNativeTarget "TOWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C5413DAA06B7B8B91CB7D95F4D1167 /* Debug */,
+				2DD78BCC265F5C6AFC38E6DE712A6BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F5D2734452795E4AF864FAF48834BD /* Build configuration list for PBXNativeTarget "TOWebViewController-TOWebViewControllerLocalizable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC983B10254095FE5C184560EC0E1E7 /* Debug */,
+				2EFCF7242AFC905DF2FC5C915A3C83B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
