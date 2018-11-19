@@ -17,8 +17,8 @@ class PagingMenuViewController1: UIViewController,UITableViewDelegate,UITableVie
     
     var currentElementName : String! // RSSパース中の現在の要素名
     
-    let ITEM_ELEMENT_NAME = "item"
-    let TITLE_ELEMENT_NAME = "title"
+    let ITEM_ELEMENT_NAME   = "item"
+    let TITLE_ELEMENT_NAME  = "title"
     let LINK_ELEMENT_NAME   = "link"
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
