@@ -20,6 +20,7 @@ class PagingMenuViewController3: UIViewController,UITableViewDelegate,UITableVie
     let ITEM_ELEMENT_NAME   = "item"
     let TITLE_ELEMENT_NAME  = "title"
     let LINK_ELEMENT_NAME   = "link"
+    let DESCRIPTION_ELEMENT_NAME = "description"
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.feedItems.count
@@ -29,6 +30,7 @@ class PagingMenuViewController3: UIViewController,UITableViewDelegate,UITableVie
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
         let feedItem = self.feedItems[indexPath.row]
         cell.textLabel?.text = feedItem.title
+        cell.detailTextLabel?.text = feedItem.description
         return cell
     }
     
@@ -55,6 +57,8 @@ class PagingMenuViewController3: UIViewController,UITableViewDelegate,UITableVie
                 lastItem.title = (tmpString != nil) ? tmpString! + string : string
             case LINK_ELEMENT_NAME:
                 lastItem.url = string
+            case DESCRIPTION_ELEMENT_NAME:
+                lastItem.description = string
             default: break
             }
         }
@@ -85,4 +89,5 @@ class PagingMenuViewController3: UIViewController,UITableViewDelegate,UITableVie
 class CeedItem {
     var title: String!
     var url: String!
+    var description: String!
 }
