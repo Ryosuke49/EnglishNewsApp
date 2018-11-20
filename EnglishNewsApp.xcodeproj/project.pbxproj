@@ -16,6 +16,7 @@
 		2813A3F02148B8F800F191C9 /* PagingMenuViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */; };
 		2813A3F22148B90700F191C9 /* PagingMenuViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */; };
 		2813A3F42148B91600F191C9 /* PagingMenuViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */; };
+		28E59A9B21A3A8490093715D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E59A9A21A3A8480093715D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController1.swift; sourceTree = "<group>"; };
 		2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController2.swift; sourceTree = "<group>"; };
 		2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController3.swift; sourceTree = "<group>"; };
+		28E59A9A21A3A8480093715D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8AD228D37AA12033B52E3532 /* Pods_EnglishNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F4B8B7F9BD242496F949FE /* Pods-EnglishNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 		2813A3DC2148B39500F191C9 /* EnglishNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				28E59A9A21A3A8480093715D /* GoogleService-Info.plist */,
 				2813A3DD2148B39500F191C9 /* AppDelegate.swift */,
 				2813A3DF2148B39500F191C9 /* ViewController.swift */,
 				2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2813A3E82148B39B00F191C9 /* LaunchScreen.storyboard in Resources */,
+				28E59A9B21A3A8490093715D /* GoogleService-Info.plist in Resources */,
 				2813A3E52148B39B00F191C9 /* Assets.xcassets in Resources */,
 				2813A3E32148B39500F191C9 /* Main.storyboard in Resources */,
 			);
@@ -173,13 +177,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
 				"${BUILT_PRODUCTS_DIR}/TOWebViewController/TOWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
