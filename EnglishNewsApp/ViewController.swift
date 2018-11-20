@@ -82,7 +82,7 @@ private struct PagingMenuOptions: PagingMenuControllerCustomizable {
     
     fileprivate struct MenuItem3: MenuItemViewCustomizable {
         var displayMode: MenuItemDisplayMode {
-            return .text(title: MenuItemText(text: "BBC Businnes", color: UIColor.white, selectedColor: UIColor.white))
+            return .text(title: MenuItemText(text: "BBC Bussiness", color: UIColor.white, selectedColor: UIColor.white))
         }
 }
 

@@ -16,7 +16,9 @@
 		2813A3F02148B8F800F191C9 /* PagingMenuViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */; };
 		2813A3F22148B90700F191C9 /* PagingMenuViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */; };
 		2813A3F42148B91600F191C9 /* PagingMenuViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */; };
+		28210D0A21A4048100C51F5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28210D0921A4048100C51F5D /* LoginViewController.swift */; };
 		28E59A9B21A3A8490093715D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E59A9A21A3A8480093715D /* GoogleService-Info.plist */; };
+		28E59A9D21A3FFAB0093715D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E59A9C21A3FFAB0093715D /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +33,9 @@
 		2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController1.swift; sourceTree = "<group>"; };
 		2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController2.swift; sourceTree = "<group>"; };
 		2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuViewController3.swift; sourceTree = "<group>"; };
+		28210D0921A4048100C51F5D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Assets.xcassets/LoginViewController.swift; sourceTree = "<group>"; };
 		28E59A9A21A3A8480093715D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28E59A9C21A3FFAB0093715D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8AD228D37AA12033B52E3532 /* Pods_EnglishNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F4B8B7F9BD242496F949FE /* Pods-EnglishNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishNewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnglishNewsApp/Pods-EnglishNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,10 +85,12 @@
 				28E59A9A21A3A8480093715D /* GoogleService-Info.plist */,
 				2813A3DD2148B39500F191C9 /* AppDelegate.swift */,
 				2813A3DF2148B39500F191C9 /* ViewController.swift */,
+				28E59A9C21A3FFAB0093715D /* SignUpViewController.swift */,
 				2813A3EF2148B8F800F191C9 /* PagingMenuViewController1.swift */,
 				2813A3F12148B90700F191C9 /* PagingMenuViewController2.swift */,
 				2813A3F32148B91600F191C9 /* PagingMenuViewController3.swift */,
 				2813A3E12148B39500F191C9 /* Main.storyboard */,
+				28210D0921A4048100C51F5D /* LoginViewController.swift */,
 				2813A3E42148B39B00F191C9 /* Assets.xcassets */,
 				2813A3E62148B39B00F191C9 /* LaunchScreen.storyboard */,
 				2813A3E92148B39B00F191C9 /* Info.plist */,
@@ -219,6 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28210D0A21A4048100C51F5D /* LoginViewController.swift in Sources */,
+				28E59A9D21A3FFAB0093715D /* SignUpViewController.swift in Sources */,
 				2813A3F42148B91600F191C9 /* PagingMenuViewController3.swift in Sources */,
 				2813A3E02148B39500F191C9 /* ViewController.swift in Sources */,
 				2813A3DE2148B39500F191C9 /* AppDelegate.swift in Sources */,
@@ -302,7 +310,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -356,6 +364,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

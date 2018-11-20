@@ -8,5 +8,6 @@ target 'EnglishNewsApp' do
   pod 'PagingMenuController'
   pod 'TOWebViewController'
   pod 'Firebase/Core'
+  pod 'Firebase'
 
 end
