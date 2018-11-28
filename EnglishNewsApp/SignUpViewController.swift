@@ -14,6 +14,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    var auth: Auth!
+    var handle: AuthStateDidChangeListenerHandle?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         emailTextField.delegate = self
@@ -22,9 +25,16 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
 
         // Do any additional setup after loading the view.
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        Auth.auth().removeStateDidChangeListener(self.handle!)
     }
     
     override func didReceiveMemoryWarning() {
@@ -33,11 +43,11 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func willSignup(_ sender: Any) {
-//        signup()
+        signup()
     }
     
     @IBAction func willTransitionToLogin(_ sender: Any) {
-//        transitionToLogin()
+        transitionToLogin()
     }
     
     func transitionToLogin() {
@@ -53,4 +63,19 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    func signup() {
+        //emailTextFieldとpasswordTextFieldに文字がなければ、その後の処理をしない
+        guard let email = emailTextField.text else  { return }
+        guard let password = passwordTextField.text else { return }
+
+        //第一引数にEmail、第二引数にパスワード
+        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
+            if error == nil {
+                print("登録できました。")
+            } else {
+                print("登録できませんでした。")
+                print(error!.localizedDescription)
+            }
+        }
+    }
 }

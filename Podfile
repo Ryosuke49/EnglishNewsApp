@@ -9,5 +9,6 @@ target 'EnglishNewsApp' do
   pod 'TOWebViewController'
   pod 'Firebase/Core'
   pod 'Firebase'
+  pod 'Firebase/Auth'
 
 end
